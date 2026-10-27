@@ -1,6 +1,6 @@
 # DevAssist
 
-[![CI](https://github.com/YOUR_USERNAME/devassist/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/devassist/actions/workflows/ci.yml)
+[![CI](https://github.com/PriyaJadhav20/devassist/actions/workflows/ci.yml/badge.svg)](https://github.com/PriyaJadhav20/devassist/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green)
 
 An AI code review agent for GitHub pull requests. It reads the diff, checks it against your team's coding guidelines (RAG), runs deterministic security checks, and posts line-level review comments, all from a GitHub Actions workflow.
@@ -36,7 +36,7 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/devassist && cd devassist
+git clone https://github.com/PriyaJadhav20/devassist && cd devassist
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev,mcp]"
 cp .env.example .env      # add ANTHROPIC_API_KEY (optional: works offline without it)
